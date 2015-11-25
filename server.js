@@ -4,7 +4,7 @@ var PORT = process.env.PORT || 3000;
 
 var todos = [{
   id:1,
-  description:'You have toreport nodejs today',
+  description:'You have to report nodejs learning status today',
   completed:false
 },{
   id:2,
@@ -12,7 +12,7 @@ var todos = [{
   completed:false
 },{
   id:3,
-  description:'Prpare Node.js Notes',
+  description:'Update Node.js Notes',
   completed:true
 }];
 
