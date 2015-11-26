@@ -9,8 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "^4.13.3"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamach/todoAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mamach/todoAPI/issues"
+  },
+  "homepage": "https://github.com/mamach/todoAPI#readme",
   "description": ""
 }
