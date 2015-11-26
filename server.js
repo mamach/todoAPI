@@ -28,7 +28,8 @@ app.get('/todos/:id' , function(req,res){
   if(matchedTodo){
     res.json(matchedTodo);
   }else{
-    res.status(404).send();
+//     res.send();
+    res.status(404).send('<h1 style="text-align:center" > 404 PAGE NOT FOUND <br /> TO DO WITH REQUEST ID NOT FOUND </h1>');
   }
   
   res.send('You requested for item with id : ' + todoId);
